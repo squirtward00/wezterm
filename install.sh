@@ -10,9 +10,8 @@ brew install --cask wezterm
 # Set up WezTerm configuration
 echo "Configuring WezTerm..."
 cd "$HOME" && \
-mkdir -p ".config/wezterm" && \
-cd ".config/wezterm" && \
-curl -O https://raw.githubusercontent.com/squirtward00/wezterm/main/wezterm.lua
+cd ".config/" && \
+git clone https://github.com/squirtward00/wezterm.git
 
 # Install oh-my-zsh
 echo "Installing oh-my-zsh..."
