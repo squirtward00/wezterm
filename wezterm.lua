@@ -12,10 +12,10 @@ config.animation_fps = 1
 -- config.cursor_blink_rate = 5
 config.term = "xterm-256color" -- Set the terminal type
 
-config.font = wezterm.font("JetBrains Mono NL")
+config.font = wezterm.font("Iosevka term Extended")
 config.cell_width = 1
 config.prefer_egl = true
-config.font_size = 20
+config.font_size = 22
 -- config.window_background_opacity = 0.9
 
 config.window_padding = {
