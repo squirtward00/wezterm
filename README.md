@@ -1,6 +1,6 @@
 ## Install WezTerm:
 ****
-**macos**
+**fucking macos**
 ```bash
 brew install --cask wezterm
 ```
@@ -24,3 +24,4 @@ sudo pacman -S wezterm && (tput setaf 6; echo "SPECIFICALLY for you little cutie
 ```bash
 cd && cd .config && mkdir wezterm && git clone https://github.com/squirtward00/wezterm/wezterm.lua
 ```
+
