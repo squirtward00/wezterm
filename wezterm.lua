@@ -3,6 +3,10 @@ local wezterm = require("wezterm")
 local act = wezterm.action
 local config = wezterm.config_builder()
 
+-- blurry bg
+config.window_background_opacity = 0.70
+config.macos_window_background_blur = 30
+
 -- Basic config
 config.front_end = "OpenGL"
 config.max_fps = 144
